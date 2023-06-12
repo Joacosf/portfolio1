@@ -1,0 +1,44 @@
+.sobreMi{
+    margin-top: 60px;
+    width: 85%;
+    height: auto;
+    background-color: #cccccc1b;
+    box-shadow: 5px 5px 5px 5px #211e1e;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    background: radial-gradient(orange, rgb(132, 9, 25));
+    margin-left: 20px;
+    font-size: 2rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.sobreMi_trabajo{
+    color: white;
+    font-family: italic, sans-serif;
+    font-size: 3rem;
+}
+
+.sobreMi_contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobreMi_texto{
+    margin: 30px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.sobreMi_imagen{
+    width: 300px;
+    max-height: 300px;
+    margin: 30px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px #211e1e;
+}
