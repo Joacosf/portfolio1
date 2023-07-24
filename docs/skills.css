@@ -11,12 +11,9 @@
 }
 
 h3{
-    background: radial-gradient(orange, rgb(132, 9, 25));
+    color: white;
     margin-left: 20px;
     font-size: 2rem;
-
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .contenedor_skill {
     display: flex;
@@ -34,6 +31,7 @@ h3{
 }
 p {
     font-size: 1.5rem;
+    color: white;
 }
 .img_skill{
     width: 100px;

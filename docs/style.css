@@ -19,12 +19,9 @@ body{
     align-items: center;
 }
 h1{
-    background: radial-gradient(orange, rgb(132, 9, 25));
+    color: white;
     margin-left: 20px;
     font-size: 3rem;
-
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 
 .lista{
@@ -40,6 +37,6 @@ h1{
 }
 
 .item a:hover{
-    color: orangered;
-    transform: scale(1.1);
+    color: green;
+    transform: scale(1.2);
 }

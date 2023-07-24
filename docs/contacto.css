@@ -1,0 +1,59 @@
+.contacto{
+    margin-top: 60px;
+    width: 85%;
+    background-color: #cccccc1b;
+    box-shadow: 5px 5px 5px 5px #211e1e;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    color: white;
+    font-size: 3rem;
+}
+
+.contactos{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nombre{
+    background-color: #211e1e;
+}
+.email-num{
+    background-color: #211e1e;
+}
+.input{
+    width: 200px;
+    height: 20px;
+    background-color: #211e1e;
+    border-right: #fafafa;
+    margin: 10px 0;
+}
+
+.mensaje{
+    width: 408px;
+    height: 200px;
+    background-color: #211e1e;
+    border-right: #cccccc1b;
+    text-align: start;
+    align-items: start;
+}
+
+button{
+    height: 20px;
+    width: 80px;
+    background-color: green;
+    margin: 15px 0;
+}
+
+.contactos img{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+

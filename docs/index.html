@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="./sobreMi.css">
         <link rel="stylesheet" href="./skills.css">
+        <link rel="stylesheet" href="./proyecto.css">
+        <link rel="stylesheet" href="./contacto.css">
+        <link rel="stylesheet" href="./footer.css">
         <title>Portfolio</title>
     </head>
     <body>
@@ -13,27 +16,33 @@
             <h1>Portfolio</h1>
             <nav class="navegador">
                 <ul class="lista">
-                    <li class="item"><a href="#">Sobre mi</a></li>
-                    <li class="item"><a href="#">Skills</a></li>
-                    <li class="item"><a href="#">Proyectos</a></li>
-                    <li class="item"><a href="#">Contacto</a></li>
+                    <li class="item"><a href="#sobreMi">Sobre mi</a></li>
+                    <li class="item"><a href="#skills">Skills</a></li>
+                    <li class="item"><a href="#proyectos">Proyectos</a></li>
+                    <li class="item"><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="sobreMi">
+        <div class="sobreMi" id="sobreMi">
             <h2>Sobre Mi</h2>
-            <p class="sobreMi_trabajo">
-                Soy Desarrollador 
-                Front-End
-            </p>
+
             <div class="sobreMi_contenido">
-                <p class="sobreMi_texto">hola!, soy Joaquín Zen Cáffaro, fui estudiante de la Escuela de Agricultura y Sacarotecnia de la Universidad Nacional de Tucumán, actualmente me estoy formando en desarrollo web vivo en Salta capital, Argentina. Soy estudiante de programacion y gracias a ello adquirí conocimientos de HTML5, CSS3 y JavaScript. Mis pasatiempos son crossfit, trekking y el campo.</p>
-                <img src="./mclovin.jpg" alt="mclovin" class="sobreMi_imagen">
+                <div class="sobreMi_quienSoy">
+                    <p class="sobreMi_trabajo">
+                        Soy Desarrollador 
+                        Front-End
+                    </p>
+                    <p class="sobreMi_texto">hola!, soy Joaquín Zen Cáffaro, fui estudiante de la Escuela de Agricultura y Sacarotecnia de la Universidad Nacional de Tucumán, actualmente me estoy formando en desarrollo web vivo en Salta capital, Argentina. Soy estudiante de programacion y gracias a ello adquirí conocimientos de HTML5, CSS3 y JavaScript. Mis pasatiempos son crossfit, trekking y el campo.</p>
+                </div>
+
+                <div class="sobreMi_img">
+                    <img src="./mclovin.jpg" alt="mclovin" class="sobreMi_imagen">
+                </div>
             </div>
         </div>
 
-        <div class="skills">
+        <div class="skills" id="skills">
             <h3>Skills</h3>
             <div class="contenedor_skill">
                 <div class="skill">
@@ -48,8 +57,70 @@
                     <img src="../img/secuencia-de-comandos-de-java.png" alt="JavaScript" class="img_skill">
                     <p>JavaScript</p>
                 </div>
-                
             </div>
         </div>
+
+        <div class="proyectos" id="proyectos">
+            <h4>Proyectos</h4>
+
+            <div class="contenedor_proyecto">
+                <div class="proyecto">
+                    <h4>Encriptador</h4>
+                    <a href="#">ver mas</a>
+                </div>
+                <div class="proyecto">
+                    <h4>Encriptador</h4>
+                    <a href="#">ver mas</a>
+                </div>
+                <div class="proyecto">
+                    <h4>Encriptador</h4>
+                    <a href="#">ver mas</a>
+                </div>
+                <div class="proyecto">
+                    <h4>Encriptador</h4>
+                    <a href="#">ver mas</a>
+                </div>
+            </div>
+        </div>
+        <div class="contacto" id="contacto">
+            <h4>Contacto</h4>
+
+            <div class="contactos">
+                <div class="nombre">
+                    <input type="text" placeholder="Nombre" class="input">
+                    <input type="text" placeholder="Apellido" class="input">
+                </div>
+                <div class="email-num">
+                    <input type="email" placeholder="Correo electronico" class="input">
+                    <input type="tel" placeholder="Telefono" class="input">
+                </div>
+                <input type="text" class="mensaje" placeholder="Mensaje">
+                <button>Enviar</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="red">
+                <div class="redes">
+                    <a href=""><img src="../img/gmail.png" alt="" class="redes_img"></a>
+                    <span>email</span>
+                </div>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/joaqu%C3%ADn-zen-caffaro-1934b8246/"><img src="../img/linkedin.png" alt="" class="redes_img"></a>
+                    <span>linkedin</span>
+                </div>
+                <div class="redes">
+                    <a href="https://github.com/Joacosf"><img src="../img/signo-de-github.png" alt="" class="redes_img"></a>
+                    <span>GitHub</span>
+                </div>
+                <div class="redes">
+                    <a href="https://www.instagram.com/joaco_caffaro/"><img src="../img/instagram.png" alt="" class="redes_img"></a>
+                    <span>Instagram</span>
+                </div>
+            </div>
+    
+            <p>@copyright - Joaquin Zen Cáffaro</p>
+        </div>
     </body>
+    
 </html>

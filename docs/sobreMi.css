@@ -11,23 +11,27 @@
     align-items: center;
 }
 h2{
-    background: radial-gradient(orange, rgb(132, 9, 25));
+    color: white;
     margin-left: 20px;
     font-size: 2rem;
-
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .sobreMi_trabajo{
     color: white;
     font-family: italic, sans-serif;
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 .sobreMi_contenido{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sobreMi_quienSoy{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .sobreMi_texto{
     margin: 30px;
@@ -36,8 +40,8 @@ h2{
 }
 
 .sobreMi_imagen{
-    width: 300px;
-    max-height: 300px;
+    width: 400px;
+    max-height: 400px;
     margin: 30px;
     border-radius: 100%;
     box-shadow: 5px 5px 5px 5px #211e1e;
